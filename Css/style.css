@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "MLSTifo";
+  src: url("../Fonts/MLSTifo--regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #12090e;
+}
+body {
+  font-family: "MLSTifo", sans-serif;
+}
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+.container footer {
+  width: 100%;
+  position: fixed;
+  background-color: #e5deef;
+  bottom: 0;
+  left: 0;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.container footer article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.container footer article h3 {
+  font-weight: bolder;
+}
+.container footer article .link {
+  list-style: none;
+}
+.container footer article li {
+  margin-top: 10px;
+}
+.container footer article .link a {
+  text-decoration: none;
+}
+.container footer article .email {
+  position: relative;
+  margin-top: -5px;
+  line-height: 36px;
+}
+.container footer article .email input[type="text"] {
+  position: relative;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 45px;
+  padding: 20px;
+}
+.container footer article .email i {
+  position: absolute;
+  top: 123px;
+  right: 20px;
+}
+.container footer section {
+  margin-top: 20px;
+}
+.container footer .address {
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 9.5% 0 9.5%;
+}
+
+footer .address p a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.container footer .payment {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 9.5%;
+  gap: 15px;
+  font-size: 64px;
+}
+.container footer .icon {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container footer .icon::before {
+  content: " ";
+  position: absolute;
+  top: -80px;
+  left: 9%;
+  width: 1050px;
+  height: 1px;
+  background-color: #12090e;
+}
+.container footer .icon a {
+  text-decoration: none;
+  font-size: 34px;
+}
+.container footer .icon .product {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.container footer .icon .product a {
+  font-size: 16px;
+}
+.container footer .social_media {
+  display: flex;
+  gap: 15px;
+}
+#ig {
+  color: rgb(219, 68, 118);
+}
+#fb {
+  color: blue;
+}
+#tw {
+  color: rgb(25, 102, 225);
+}
